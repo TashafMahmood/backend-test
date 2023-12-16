@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.status(200).json({message:"successfully works"})
+    res.send("WELCOME TO BACKEND LEARNING")
 })
 
 app.listen(5000, ()=>{
